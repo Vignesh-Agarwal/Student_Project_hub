@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contact Form </title>
+</head>
+<body>
+
+    <div class="container" style="background-color: #7e7bb7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 100vh;">
+        <form action="registration.jsp" method="post" 
+        style="background-color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 2vw 4vw;
+        width: 60%;
+        max-width: 600px;
+        border-radius: 10px;">
+            <h2 style="text-align: center;
+            color: #e65b00;
+            margin-bottom: 20px;"> Complete your project details
+            </h2>
+            <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+            <br></br>
+            <input type="email" id="email" name="email1" placeholder="Enter Your Email" required>
+            <br></br>
+            <input type="text" id="roll number" name="roll" placeholder="Enter Your roll number" required>
+            <br></br>
+            <input type="text" id="project_title" name="project_title" placeholder="Enter project title" required>
+            <br></br>
+            <textarea style="border: 0;
+            margin: 10px 0px;
+            padding: 20px;
+            outline: none;
+            background: #f5f5f5;
+            font-size: 16px;
+            border-radius: 10px;
+            resize: none;" id="project_details" rows="9" name="project_desp" placeholder="Write about your project"></textarea>
+            <button type="submit" style="background: white;
+            color: #e65b00;
+            border: 1px solid #e65b00;
+            padding: 15px;
+            font-size: 1rem;
+            outline: none;
+            cursor: pointer;
+            width: 100%;
+            font-weight: bold;
+            margin: 20px auto 0;
+            border-radius: 30px;
+            transition: all .5s ease-in;">Send</button>
+        </form>
+    </div>
+</body>
+<style>
+            input {border: 0;
+                margin: 10px 0px;
+                padding: 20px;
+                outline: none;
+                background: #f5f5f5;
+                font-size: 16px;
+                border-radius: 10px;
+                resize: none;}
+            </style>
+</html>
